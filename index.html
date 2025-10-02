@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie List App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎬 Movie List</h1>
+
+  <div class="add-row">
+    <input type="text" id="movieTitle" placeholder="Movie title" />
+    <input type="number" id="movieYear" placeholder="Year" min="1800" max="2100" />
+      <button id="addMovieBtn">Add Movie</button>
+
+    <!-- <input type="text" id="movieInput" placeholder="Enter movie name"> -->
+  </div>
+  
+
+  <h2>All Movies</h2>
+  <ul id="movieList"></ul>
+
+  <h2>Search</h2>
+  <input type="text" id="searchInput" placeholder="Search movie...">
+  <ul id="searchResults"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
